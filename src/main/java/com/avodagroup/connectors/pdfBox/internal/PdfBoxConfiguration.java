@@ -1,6 +1,6 @@
 /*
- * Copyright 2023 Salesforce, Inc. All rights reserved.
- * The software in this package is published under the terms of the CPAL v1.0
+ * Copyright 2025 Avoda Group Inc. All rights reserved.
+ * The software in this package is published under the terms of the MIT
  * license, a copy of which has been included with this distribution in the
  * LICENSE.txt file.
  */
@@ -8,10 +8,6 @@ package com.avodagroup.connectors.pdfBox.internal;
 
 import org.mule.runtime.extension.api.annotation.Operations;
 
-/**
- * This class represents an extension configuration, values set in this class are commonly used across multiple
- * operations since they represent something core from the extension.
- */
 @Operations(PdfBoxOperations.class)
 public class PdfBoxConfiguration {
 }

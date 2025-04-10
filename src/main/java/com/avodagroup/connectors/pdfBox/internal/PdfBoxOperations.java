@@ -1,9 +1,10 @@
 /*
- * Copyright 2023 Salesforce, Inc. All rights reserved.
- * The software in this package is published under the terms of the CPAL v1.0
+ * Copyright 2025 Avoda Group Inc. All rights reserved.
+ * The software in this package is published under the terms of the MIT
  * license, a copy of which has been included with this distribution in the
  * LICENSE.txt file.
  */
+
 package com.avodagroup.connectors.pdfBox.internal;
 
 import static org.mule.runtime.extension.api.annotation.param.MediaType.ANY;
@@ -14,19 +15,10 @@ import java.io.InputStream;
 
 import org.apache.commons.io.output.ByteArrayOutputStream;
 import org.apache.pdfbox.Loader;
-import org.apache.pdfbox.pdmodel.common.PDStream;
 import org.mule.runtime.extension.api.annotation.param.MediaType;
-import org.mule.runtime.extension.api.annotation.param.Config;
-import org.mule.runtime.extension.api.annotation.param.Connection;
 import org.mule.runtime.extension.api.annotation.param.display.DisplayName;
 import org.apache.pdfbox.multipdf.PageExtractor;
 import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.pdmodel.PDPage;
-import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException;
-import org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm;
-import org.apache.pdfbox.pdmodel.interactive.form.PDField;
-import org.apache.pdfbox.pdmodel.interactive.form.PDNonTerminalField;
 /**
  * This class is a container for operations, every public method in this class will be taken as an extension operation.
  */
