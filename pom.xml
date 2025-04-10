@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.avodagroup</groupId>
+    <artifactId>pdfBox</artifactId>
+    <version>1.0.9-SNAPSHOT</version>
+    <packaging>mule-extension</packaging>
+    <name>PdfBox Extension</name>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Robert Huddleston</name>
+            <email>robert@avodagroup.us</email>
+            <organization>Avoda Group Inc</organization>
+            <organizationUrl>https://www.avodagroup.us</organizationUrl>
+        </developer>
+    </developers>
+
+    <parent>
+        <groupId>org.mule.extensions</groupId>
+        <artifactId>mule-modules-parent</artifactId>
+        <version>1.9.3</version>
+    </parent>
+
+    <properties>
+        <java.release.version>17</java.release.version>
+        <munit.version>3.0.0</munit.version>
+        <munit.extensions.maven.plugin.version>1.4.0</munit.extensions.maven.plugin.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>pdfbox</artifactId>
+            <version>3.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.18.0</version>
+        </dependency>
+    </dependencies>
+</project>

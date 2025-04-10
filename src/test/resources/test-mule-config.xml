@@ -1,0 +1,19 @@
+<mule xmlns="http://www.mulesoft.org/schema/mule/core"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:pdfbox="http://www.mulesoft.org/schema/mule/pdfbox"
+      xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+          http://www.mulesoft.org/schema/mule/pdfbox http://www.mulesoft.org/schema/mule/pdfbox/current/mule-pdfbox.xsd">
+
+    <pdfbox:config name="config" configId="configId">
+        <pdfbox:connection requiredParameter="aValue" />
+    </pdfbox:config>
+
+    <flow name="sayHiFlow">
+        <pdfbox:say-hi person="Mariano Gonzalez"/>
+    </flow>
+
+    <flow name="retrieveInfoFlow">
+        <pdfbox:retrieve-info config-ref="config"/>
+    </flow>
+
+</mule>
