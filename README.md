@@ -15,3 +15,4 @@ Add this dependency to your application pom.xml
 <version>1.1.0</version>
 <classifier>mule-plugin</classifier>
 ```
+![connector-demo](https://github.com/user-attachments/assets/74123381-a5b9-47e5-a976-4c1b92512c68)
