@@ -4,7 +4,7 @@
  * license, a copy of which has been included with this distribution in the
  * LICENSE.txt file.
  */
-package com.avodagroup.connectors.pdfBox.internal;
+package us.avodagroup.connectors.pdfBox.internal;
 
 import org.mule.runtime.extension.api.annotation.Operations;
 

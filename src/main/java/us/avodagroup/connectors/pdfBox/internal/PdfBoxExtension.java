@@ -5,7 +5,7 @@
  * LICENSE.txt file.
  */
 
-package com.avodagroup.connectors.pdfBox.internal;
+package us.avodagroup.connectors.pdfBox.internal;
 
 import org.mule.runtime.extension.api.annotation.Extension;
 

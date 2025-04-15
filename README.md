@@ -10,9 +10,9 @@ The connector currently only supports two operations / methods, but more will co
 Add this dependency to your application pom.xml
 
 ```
-<groupId>com.avodagroup</groupId>
-<artifactId>pdfBox</artifactId>
-<version>1.1.1</version>
+<groupId>us.avodagroup.connectors</groupId>
+<artifactId>mule-pdfBox-connector</artifactId>
+<version>0.0.2</version>
 <classifier>mule-plugin</classifier>
 ```
 ![connector-demo](https://github.com/user-attachments/assets/74123381-a5b9-47e5-a976-4c1b92512c68)

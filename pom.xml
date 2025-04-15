@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.avodagroup</groupId>
-    <artifactId>pdfBox</artifactId>
-    <version>1.1.3</version>
+    <groupId>us.avodagroup.connectors</groupId>
+    <artifactId>mule-pdfBox-connector</artifactId>
+    <version>0.0.2</version>
     <packaging>mule-extension</packaging>
     <name>PdfBox Connector - Mule 4</name>
     <description>The Mule 4 Apache PDFBox Connector for working with PDFs.</description>
@@ -68,7 +68,7 @@
                 <configuration>
                     <publishingServerId>central</publishingServerId>
                     <checksums>all</checksums>
-                    <deploymentName>MuleSoft Amazon Bedrock Connector Mule 4 Deployment</deploymentName>
+                    <deploymentName>MuleSoft Apache PDFBox Connector Mule 4 Deployment</deploymentName>
                 </configuration>
             </plugin>
         </plugins>
